@@ -48,6 +48,11 @@ When queried with a complex multi-concept research question:
 
 The system extracts both semantic contexts and structured relational paths:
 
+<div align="center">
+  <img src="assets/knowledge_graph.png" alt="Discovered Multi-Hop Knowledge Topology" width="90%" />
+  <p><em>Figure 1: Graph traversal topology resolving multi-hop relationships between architectural concepts and hardware constraints.</em></p>
+</div>
+
 | Hop # | Discovered Knowledge Path | Context Type |
 |---|---|---|
 | **1** | `Vision Transformer --(contains)--> Multi-Head Attention` | Architectural Subcomponent |
@@ -55,7 +60,6 @@ The system extracts both semantic contexts and structured relational paths:
 | **3** | `Magnitude Pruning --(induces)--> Weight Sparsity` | Structural Consequence |
 | **4** | `Weight Sparsity --(enables_deployment_on)--> Edge Devices` | Deployment Target |
 | **5** | `Edge Devices --(demands)--> Low Energy Consumption` | Hardware Constraint |
-
 ---
 
 ### 🛠️ How to Reproduce
