@@ -49,7 +49,7 @@ When queried with a complex multi-concept research question:
 The system extracts both semantic contexts and structured relational paths:
 
 <div align="center">
-  <img src="assets/knowledge_graph.png" alt="Discovered Multi-Hop Knowledge Topology" width="90%" />
+  <img src="knowledge_graph.png" alt="Discovered Multi-Hop Knowledge Topology" width="90%" />
   <p><em>Figure 1: Graph traversal topology resolving multi-hop relationships between architectural concepts and hardware constraints.</em></p>
 </div>
 
